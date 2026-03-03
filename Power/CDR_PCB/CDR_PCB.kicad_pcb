@@ -78,5 +78,16 @@
 		)
 	)
 	(net 0 "")
+	(gr_rect
+		(start 118 50)
+		(end 198 130)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Cu")
+		(uuid "f17d6289-e2a4-4e73-ac25-f9605dc54cc4")
+	)
 	(embedded_fonts no)
 )
