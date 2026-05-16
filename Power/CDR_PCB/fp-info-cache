@@ -1,4 +1,4 @@
-26433380607224729
+26456160335193552
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61417,6 +61417,13 @@ XCVR_746
 0
 11
 11
+HTS221
+XDCR_HTS221
+
+
+0
+6
+6
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -69996,6 +70003,90 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+Library_motordriver
+0805-NO
+
+
+0
+2
+2
+Library_motordriver
+0805-THM
+
+
+0
+2
+2
+Library_motordriver
+ADAFRUIT_3.5MM
+
+
+0
+0
+0
+Library_motordriver
+DRV8871 BOARD
+
+
+0
+8
+6
+Library_motordriver
+FIDUCIAL_1MM
+
+
+0
+1
+1
+Library_motordriver
+HSOP8
+
+
+0
+13
+13
+Library_motordriver
+MOUNTINGHOLE_2.5_PLATED
+
+
+0
+1
+1
+Library_motordriver
+PANASONIC_D
+Panasonic Aluminium Electrolytic Capacitor VS-Serie Package D
+
+0
+2
+2
+Library_motordriver
+PCBFEAT-REV-040
+Revision Level Field - 40 mil{return}{return}Set version with global board attribute '>REV'
+
+0
+0
+0
+Library_motordriver
+SYMBOL_MINUS
+ICON{return}{return}Minus Symbol
+
+0
+0
+0
+Library_motordriver
+SYMBOL_PLUS
+ICON{return}{return}Plus Sign Symbol
+
+0
+0
+0
+Library_motordriver
+TERMBLOCK_1X2-3.5MM
+
+
 0
 2
 2
