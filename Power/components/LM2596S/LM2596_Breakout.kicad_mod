@@ -1,0 +1,222 @@
+(footprint "LM2596_Breakout"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LM2596S DC-DC Buck Converter Breakout Board")
+	(tags "LM2596 buck converter breakout")
+	(property "Reference" "REF**"
+		(at 0 -12 0)
+		(layer "F.SilkS")
+		(uuid "f6eecba1-41b3-40e4-af75-73b194f712bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LM2596_Breakout"
+		(at 0 13 0)
+		(layer "F.Fab")
+		(uuid "65f363a5-2882-4328-ad95-026bf19f527d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2565259-2b15-490a-965e-432026d6ec0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dad0d7bf-d4da-4096-a5f3-cd5b2dfc9122")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -21.59 -10.54)
+		(end -21.59 10.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcbddc18-6f79-45e8-914b-3643637d3310")
+	)
+	(fp_line
+		(start -21.59 -10.54)
+		(end 21.59 -10.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50a855f4-f18b-4283-824c-18d6c092c94c")
+	)
+	(fp_line
+		(start -21.59 10.54)
+		(end 21.59 10.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "444728e6-6a0b-411b-a00b-130d9bb67c42")
+	)
+	(fp_line
+		(start 21.59 -10.54)
+		(end 21.59 10.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d2266f3-e685-4f02-83bb-530b17d2345b")
+	)
+	(fp_line
+		(start -23 -11.5)
+		(end -23 11.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cad4204-9a19-4898-90a4-66dc120e0bb5")
+	)
+	(fp_line
+		(start -23 -11.5)
+		(end 23 -11.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18dc03c2-cc19-4b9c-9d25-b3cac4c4e2bf")
+	)
+	(fp_line
+		(start -23 11.5)
+		(end 23 11.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce3ec579-d50d-48ee-afdd-4cf8a06dd609")
+	)
+	(fp_line
+		(start 23 -11.5)
+		(end 23 11.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9eaa2100-dd6e-42e1-8140-295a2c1f513b")
+	)
+	(fp_text user "IN+"
+		(at -14.5 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "71e5c682-9e6d-444e-bb44-b56194c68ded")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at -14.5 9 0)
+		(layer "F.SilkS")
+		(uuid "933f39a4-281b-4ec6-90be-fea5a049ed3b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 14 8.5 0)
+		(layer "F.SilkS")
+		(uuid "d7fccd61-22ae-4a51-935f-797006676238")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 14.5 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "b9e3282f-95f2-4b56-970a-409b23fcf765")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "VIN_N" thru_hole circle
+		(at -19.75 8.57)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b1b7114-17be-4a27-879a-03f41fda2a26")
+	)
+	(pad "VIN_P" thru_hole circle
+		(at -19.75 -8.57)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "774dc677-4296-473d-bd0b-9fbb3575a4b8")
+	)
+	(pad "VOUT_N" thru_hole circle
+		(at 19.75 8.57)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "73d42c11-d0b9-45ca-b87d-d5776c97b364")
+	)
+	(pad "VOUT_P" thru_hole circle
+		(at 19.75 -8.57)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "feb1010d-561f-4b9a-bdbd-771ecad81dc8")
+	)
+	(embedded_fonts no)
+	(model "LM2596_Breakout.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
