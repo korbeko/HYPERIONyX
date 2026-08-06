@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TEENSY") (type "KiCad") (uri "${KIPRJMOD}/../../components/TEENSY_4.1/") (options "") (descr "TEENSY 4.1"))
+	(lib (name "DPS310_Breakout") (type "KiCad") (uri "${KIPRJMOD}/../../components/DPS310/") (options "") (descr ""))
+	(lib (name "HTS221_Breakout") (type "KiCad") (uri "${KIPRJMOD}/../../components/HTS221/") (options "") (descr ""))
+)
