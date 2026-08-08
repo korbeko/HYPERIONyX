@@ -7716,15 +7716,6 @@
 		(at 31.75 48.26)
 		(uuid "fba35290-b804-425a-b1cd-c94e1e169de6")
 	)
-	(bus_entry
-		(at 67.31 161.29)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfdf0e5e-ed9d-428f-80f9-12a71762bfc4")
-	)
 	(wire
 		(pts
 			(xy 81.28 128.27) (xy 82.55 128.27)

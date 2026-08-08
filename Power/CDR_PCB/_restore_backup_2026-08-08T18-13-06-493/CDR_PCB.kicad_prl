@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -49,11 +49,9 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_ffffff7f",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -63,13 +61,11 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "CDH.kicad_prl",
+    "filename": "CDR_PCB.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [
-      false,
-      false,
       false,
       false,
       false,
@@ -91,11 +87,20 @@
       6,
       7,
       8,
-      9,
-      10,
-      11
+      9
     ],
-    "col_widths": [],
+    "col_widths": [
+      222,
+      207,
+      137,
+      92,
+      137,
+      137,
+      137,
+      98,
+      137,
+      137
+    ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -107,7 +112,7 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": -1
+    "sorting_column": 0
   },
   "open_jobsets": [],
   "project": {
