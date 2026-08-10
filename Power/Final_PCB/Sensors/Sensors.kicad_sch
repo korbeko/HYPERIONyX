@@ -653,28 +653,26 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J3"
-				(at 2.54 0.0001 0)
+				(at 0.254 3.302 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "MICROFC_Board"
-				(at 2.54 -2.5399 0)
+				(at 0.254 5.842 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -812,16 +810,16 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 -2.54 0)
+					(at -8.89 0 0)
 					(length 7.62)
-					(name "Pin_2"
+					(name "VBIAS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SOUT"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -830,16 +828,16 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 0 0)
+					(at -8.89 -2.54 0)
 					(length 7.62)
-					(name "Pin_1"
+					(name "SOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "VBIAS"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5359,6 +5357,30 @@
 			)
 		)
 	)
+	(global_label "MICROFC"
+		(shape input)
+		(at 157.48 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "075fee37-a173-497c-8bd3-ff4e01983908")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.7505 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BNO_RST"
 		(shape input)
 		(at 208.28 100.33 0)
@@ -8243,7 +8265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 125.73 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8276,10 +8298,10 @@
 				)
 			)
 		)
-		(pin "VBIAS"
+		(pin "2"
 			(uuid "f8752e67-4559-4317-8a27-dd75fdd31908")
 		)
-		(pin "SOUT"
+		(pin "1"
 			(uuid "075556c7-5b24-4822-b364-16b10b18c5f0")
 		)
 		(instances
@@ -9122,7 +9144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 22.86 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10557,7 +10579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
