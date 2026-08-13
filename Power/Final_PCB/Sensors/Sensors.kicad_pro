@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Sensor_Manufacture/",
       "specctra_dsn": "",
       "vrml": ""
     },

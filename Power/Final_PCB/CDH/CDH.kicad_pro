@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "CDH_Manufacture/",
       "specctra_dsn": "",
       "vrml": ""
     },
