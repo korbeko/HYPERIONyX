@@ -8907,7 +8907,7 @@
 				)
 			)
 		)
-		(property "Value" "2472"
+		(property "Value" "BNO055"
 			(at 127 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
