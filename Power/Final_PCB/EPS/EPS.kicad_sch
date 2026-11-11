@@ -12717,7 +12717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e07a79c0-0512-4a51-9c68-90f8a46b4700")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 137.16 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12967,7 +12967,7 @@
 		(instances
 			(project "EPS"
 				(path "/0f8e7222-4ec3-4cb8-a527-bd1d8f9fffa5"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
